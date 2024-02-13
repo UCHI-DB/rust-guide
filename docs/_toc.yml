@@ -53,6 +53,6 @@ chapters:
       - file: 06_concurrency/02_shared_ownership
       - file: 06_concurrency/03_concurrent_access
   - title: Glossary
-     sections:
-       - file: 07_glossary/01_conventions
-       - file: 07_glossary/02_acknowledgements
+    sections:
+      - file: 07_glossary/01_conventions
+      - file: 07_glossary/02_acknowledgements
