@@ -1,4 +1,6 @@
-### Variables
+# Rust Language Basics
+
+## Variables
 
 Rust contains many of the same variables used in other programming languages.
 These variables include:
@@ -21,7 +23,7 @@ Other times it cannot and requires you provide the type
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
 
-### Functions
+## Functions
 
 Functions in Rust are defined as:
 
@@ -139,3 +141,5 @@ fn main() {
     assert_eq!(sum, 55);
 }
 ```
+
+## Rust Macros

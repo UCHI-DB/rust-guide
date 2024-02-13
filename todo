@@ -1,0 +1,6 @@
+- Update debugging instructions for VScode
+- Add Hashmap example
+- Move Rust Documentation to Dedicated Reference Sections
+- Inline formatting, using bold, italics and code formatting
+- Remove CrustyDB references
+- Integrate Exercises

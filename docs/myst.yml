@@ -9,11 +9,11 @@ project:
   # bibliography: []
 site:
   template: book-theme
-  # title:
-  # options:
-  #   logo: site_logo.png
+  title: Rust Guide
+  options:
+     logo: cs-logo.png
   nav: []
-  actions:
-    - title: Learn More
-      url: https://mystmd.org/guide
+  # actions:
+  #   - title: Learn More
+  #     url: https://mystmd.org/guide
   domains: []

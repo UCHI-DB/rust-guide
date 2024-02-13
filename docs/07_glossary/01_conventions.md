@@ -1,19 +1,6 @@
-<!-- .. raw:: latex
+# Conventions
 
-    \frontmatter
-    \let\partBackup\part
-    \let\chapterBackup\chapter
-    \let\sectionBackup\section
-    \let\part\chapter
-    \let\chapter\section
-    \let\section\subsection -->
-
-# Preface
-
-Welcome to the preface! In time, this preface will contain more information
-about the purpose of this book, suggested ways of reading it, etc. For now,
-it just contains some basic information on some notation you'll see throughout
-the book.
+Here is some basic information on some notation used throughout the book.
 
 ## Example code
 
