@@ -17,42 +17,50 @@
 
 format: jb-book
 root: README
+options:
+  numbered: true
 chapters:
-
-  - title: Getting Started
+  - file: 01_getting_started/README.md
+    title: Getting Started
     sections:
       - file: 01_getting_started/01_install
       - file: 01_getting_started/02_hello
       - file: 01_getting_started/03_debugging
-  - title: Language Basics
+  - file: 02_language_basics/README.md
+    title: Language Basics
     sections:
       - file: 02_language_basics/01_control_flow
       - file: 02_language_basics/02_data_structures
       - file: 02_language_basics/03_ownership
-  - title: Object Oriented Features
+  - file: 03_object_oriented_features/README.md
+    title: Object Oriented Features
     sections:
       - file: 03_object_oriented_features/01_structs
       - file: 03_object_oriented_features/02_methods
       - file: 03_object_oriented_features/03_enums_patterns
       - file: 03_object_oriented_features/04_generics
       - file: 03_object_oriented_features/05_traits
-  - title: Code Organization
+  - file: 04_code_organization/README.md
+    title: Code Organization
     sections:
       - file: 04_code_organization/01_clippy_and_fmt
       - file: 04_code_organization/02_crates_and_imports
       - file: 04_code_organization/03_testing
-  - title: Serialization
+  - file: 05_serialization/README.md
+    title: Serialization
     sections:
       - file: 05_serialization/01_motivation
       - file: 05_serialization/02_basic_serialization
       - file: 05_serialization/03_collections
       - file: 05_serialization/04_serde
-  - title: Concurrency
+  - file: 06_concurrency/README.md
+    title: Concurrency
     sections:
       - file: 06_concurrency/01_threading
       - file: 06_concurrency/02_shared_ownership
       - file: 06_concurrency/03_concurrent_access
-  - title: Glossary
+  - file: 07_glossary/README.md
+    title: Glossary
     sections:
       - file: 07_glossary/01_conventions
       - file: 07_glossary/02_acknowledgements
