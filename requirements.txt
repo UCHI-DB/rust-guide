@@ -1,3 +1,4 @@
 myst-parser
 mystmd
 jupyter-book
+cookiecutter
