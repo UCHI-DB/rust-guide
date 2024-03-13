@@ -53,7 +53,7 @@ A successful installation will return:
 Rust is installed now. Great! -->
 <!-- ``` -->
 
-### Update existing Rust environment
+## Update existing Rust environment
 
 You can run:
 
@@ -69,5 +69,5 @@ rustup update
 
 
 
-### Rust Playground 
+## Rust Playground 
 The [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021) is a web interface to try out small code snippets 

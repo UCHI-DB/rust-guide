@@ -162,3 +162,6 @@ cython_debug/
 
 # Myst
 _build
+
+# Apple
+.DS_Store
