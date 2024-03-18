@@ -28,6 +28,31 @@ A macro, `vec!`, exists for quickly building a vector
 `let mut v = vec![1, 2, 3];`
 
 ## Hashmap 
+The Hashmap data structure is a common data structure that allows you to store
+key-value pairs and look up values by key, typically in constant time. 
+Rust features a built-in hashmap data structure (`HashMap`) 
+that is part of the standard library. 
 
-Read the documentation on hashmaps when you need to use them
-https://doc.rust-lang.org/book/ch08-03-hash-maps.html
+```rust
+use std::collections::HashMap;
+
+let mut scores = HashMap::new();
+
+// Inserting Values into the HashMap
+scores.insert(String::from("Blue"), 10);
+scores.insert(String::from("Yellow"), 50);
+
+// Accessing Values in the HashMap
+let team_name = String::from("Blue");
+let score = scores.get(&team_name).copied().unwrap_or(0);
+```
+
+While the access example above may seem a bit complex, it is a common pattern in Rust. 
+The `get` function returns an `Option<&V>` type, which is a Rust `enum` that can be either `Some` or `None`.
+If a value exists, a pointer (`&V`) to the value is returned, and we can make a copy of the value using the `copied` function.
+Finally, we use the `unwrap_or` function to provide a default value if the key is not in the hashmap.
+
+
+You will learn more about `Option` and enums in the [next module](enums).
+
+More information on hashmaps is in the [Rust Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)

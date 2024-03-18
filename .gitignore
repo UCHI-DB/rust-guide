@@ -165,3 +165,6 @@ _build
 
 # Apple
 .DS_Store
+
+# VSCode Settings
+.vscode/

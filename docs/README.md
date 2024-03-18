@@ -2,7 +2,7 @@
 
 
 ```{image} ferris.png
-:alt: Ferris, the friendly Rust Mascot
+:alt: Ferris, the friendly Rust Mascot and UChicago's Phoenix
 :width: 200px
 :align: center
 ```
