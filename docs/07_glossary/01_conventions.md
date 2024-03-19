@@ -2,16 +2,6 @@
 
 Here is some basic information on some notation used throughout the book.
 
-## Example code
-
-Some chapters in the book rely on example code that we provide through the
-following repository on GitHub:
-
-https://github.com/cs-apps-book/examples
-
-When referring to individual example files, we will use the full path
-within that repository. For example, ``getting-started/code-organization/arithmetic.py``
-
 ## Additional information boxes
 
 

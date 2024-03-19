@@ -39,17 +39,6 @@ Human-readable serialization formats are easy to use by humans but less efficien
 Let's get hands-on and explore these ideas.
 
 
-
-
-
-
 ## Databases
 
 Database management systems are in charge of, among many other things, storing and retrieving data efficiently. It follows that serializing and deserializing data is one of the most basic operations databases will perform. We will see a lot and you will deal with this a lot, so spend time ensuring you followed this module end to end.
-
-## Post-credits Scene
-
-Please review the notes from module 3 on result and option and pass the tests in crate result_option.
-
-----
-***ATTENTION: We introduce the third-party crate [serde], but you should not add any additional crates (e.g., do not modify the cargo.toml file) to pass the tests in this primer.***

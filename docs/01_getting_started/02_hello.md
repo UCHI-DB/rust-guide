@@ -23,6 +23,12 @@ To make sure you have cargo installed, enter the following command into the term
 
 To create a project with cargo, run the following commands, which create a `crate`. A crate is a package of code that can either be a binary (executable) or a library.
 
+:::{warning}
+Please run the following commands in a fresh directory, 
+and not in your homework/project directory that already has code in it. 
+Do not commit these files to your repository.
+:::
+
 ```
 cargo new hello_cargo
 cd hello_cargo
@@ -41,10 +47,16 @@ Open `Cargo.toml` in a text editor. You should see the configuration information
 name = "hello_cargo"
 version = "0.1.0"
 authors = ["Name <email@uchicago.edu>"]
-edition = year
+edition = "2021"
 
 [dependencies]
 ```
+
+:::{note}
+A few things to note:
+- On newer versions of Rust, you will have to manually add the `authors` field.
+- `edition` is the version of the Rust language that you are using.
+:::
 
 Next, open `src/main.rs`. You should see that Cargo has generated a Hello World program for you. 
 

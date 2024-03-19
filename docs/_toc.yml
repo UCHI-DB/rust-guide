@@ -51,8 +51,7 @@ chapters:
     sections:
       - file: 05_serialization/01_motivation
       - file: 05_serialization/02_basic_serialization
-      - file: 05_serialization/03_collections
-      - file: 05_serialization/04_serde
+      - file: 05_serialization/03_serde
   - file: 06_concurrency/README.md
     title: Concurrency
     sections:

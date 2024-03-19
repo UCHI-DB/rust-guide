@@ -1,10 +1,11 @@
 # Rust Guide
 
 
-```{image} ferris.png
-:alt: Ferris, the friendly Rust Mascot and UChicago's Phoenix
-:width: 200px
+```{figure} ferris.png
+:alt: Ferris, the friendly Rust Mascot!
 :align: center
+
+Ferris, the friendly Rust Mascot!
 ```
 
 Welcome to the Rust Guide! This guide has been written for students who have 

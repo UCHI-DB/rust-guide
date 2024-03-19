@@ -1,16 +1,63 @@
 # String and Byte Serialization
 
-### Part 1: The very basics
+## Byte Serialization
 
-Take a look at the crate `serde1` we include with this module. It is very simple, if you set the variable `serialize` to `true`, then it will take an integer, 33, and will serialize it. When serializing it, it will do it in two different ways. First, by casting 33 into a string, a human-readable representation. Second, by obtaining the bytes that represent the integer 33. After serializing the data, it will write it to disk. Instead, we could have chosen to send it over the network or to send it to another process, and many more: once data is represented as bits, *anyone who knows* how to interpret those bytes can translate them into variables again, in what is called deserialization.
+Basic File-IO operations are similar to those in other low-level languages
+like C or C++. The following code sample demonstrates how to read and write
+4 bytes (the typical size of a `u32` integer) to a file in Rust. 
 
-This crate is extremely simple, feel free to play around, modify the code, and start honing your Rust programming skills. Also, these are the steps you should follow and questions you should answer (we indicate with to-submit answer you actually have to submit for the autograder to test your code):
+```rust
+fn write_bytes_to_file(bytes: [u8; 4], filename: &str) -> Result<(), Error> {
+    // Create a File; see Rust doc for std::fs::File
+    let mut buffer = File::create(filename)?;
+    // Write bytes to that file
+    buffer.write_all(&bytes)?;
+    Ok(())
+}
 
-* Implement the functions `serialize_to_string`, `serialize_to_bytes`, `deserialize_from_bytes` without changing the provided signature. (to-submit)
-* After running the program once (for the first time), inspect the files that the program produces. What differences do you see between the files?
-* Look at the comment on the `serialize_to_string` function. There is a question: what's the difference between casting into a string and serializing into a string? can you answer it?
-* Investigate and try out alternative ways to serialize data in human-readable format, for example, in JSON. Instead of doing such a thing manually, you can look into existing libraries to achieve the goal.
-* Above we explained some differences between human-readable serialization formats and more efficient ones (such as writing content in bytes), do you understand the difference now? can you explain it to someone else?
-* What happens if you change the type of the integer? Try with `u16`, `i32`, `u8`... and observe its representation on disk. Make sure you understand the behavior.
+fn read_bytes_from_file(filename: &str) -> [u8; 4] {
+    let f = File::open(filename).expect("could not open file");
+    let mut reader = BufReader::new(f);
+    let mut buffer = Vec::new();
 
-The crux of serializing a data structure is to find a byte representation of the same. Different computer architectures, however, will interpret bits within a byte differently. Refresh your memory between the differences between *little endian* and *big endian*. You can find your computer architecture book or take a quick look at [the Wikipedia article on Endianness](https://en.wikipedia.org/wiki/Endianness).
+    // Read file into vector.
+    reader.read_to_end(&mut buffer).expect("error while reading file");
+
+    // Transform Vec (much preferred way of handling collection of values) into array (for this example)
+    let array = vec_to_array(buffer);
+    array
+}
+
+fn vec_to_array<T, const N: usize>(v: Vec<T>) -> [T; N] {
+    v.try_into()
+        .unwrap_or_else(|v: Vec<T>| panic!("Expected a Vec of length {} but it was {}", N, v.len()))
+}
+```
+
+The crux of serializing a data structure is to find a byte representation of the same. Different computer architectures, however, will interpret bits within a byte differently. 
+
+In particular, when serializing numbers, byte order matters. Recall the differences between *Little* and *Big* Endian representation - you can read more in [the Wikipedia article on Endianness](https://en.wikipedia.org/wiki/Endianness). Rust provides multiple byte conversion traits for numeric types, such as `to_le_bytes` and `to_be_bytes` for little and big endian, respectively. The corresponding `from_le_bytes` and `from_be_bytes` are used to convert bytes back to numbers.
+
+
+## String Serialization
+
+The following code sample demonstrates how to read and write a string to a file in Rust. Like before, all values are first serialized to bytes and then read or written to a file.
+
+```rust
+fn write_string_to_file(string: &str, filename: &str) {
+    let f = File::create(filename).expect("error creating file");
+    let mut f = BufWriter::new(f);
+    f.write_all(string.as_bytes()).unwrap();
+}
+
+fn read_string_from_file(filename: &str) -> String {
+    let mut data = String::new();
+    let f = File::open(filename).expect("error while opening file");
+    let mut br = BufReader::new(f);
+    br.read_to_string(&mut data).unwrap();
+    data
+}
+```
+
+Similarly, most variables can be serialized to a string representation using the `from_string()` and `to_string()` methods for numeric types.
+
