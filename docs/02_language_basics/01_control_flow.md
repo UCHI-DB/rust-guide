@@ -9,9 +9,19 @@ These variables include:
 - boolean ```bool```
 - character ```char```
 - tuple ```tup```
-- array (not frequently used though, Vector is much more common)   
+- array (not frequently used though, Vector is much more common)
 
-By default, variables are immutable, which means that once you assign a value you cannot modify (mutate) it anymore. However, you have the option to make your variables mutable by adding ```mut``` in front of the variable name. 
+You will notice that, unlike higher-level languages like Python, Rust has many
+different types of integers. The first letter indicates the sign (`u` for
+unsigned, `i` for signed), and the number indicates the number of bits.
+Therefore, `u8` is an unsigned 8-bit integer, `i32` is a signed 32-bit integer,
+and so on. `usize` is a special type that is the same size as the memory address
+of the computer, and is used for indexing into arrays and vectors.
+
+
+By default, variables are immutable, which means that once you assign a value
+you cannot modify (mutate) it anymore. However, you have the option to make your
+variables mutable by adding ```mut``` in front of the variable name. 
 
 When defining a variable, sometimes the compiler can infer the type.
 
@@ -34,6 +44,7 @@ fn main() {
 ```
 
 Functions are private by default. To make them public, add ```pub``` before ```fn```.
+A function can be called from another file if it is public. 
 
 ```rust
 pub fn main() {
