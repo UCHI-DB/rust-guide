@@ -2,7 +2,7 @@
 
 ## Variables
 
-Rust contains many of the same variables used in other programming languages.
+Rust contains many of the same types of variables used in other programming languages.
 These variables include:
 - integer: ```int``` ```(u8,i8,u16,i16...u64/usize)```
 - floating-point ```f32,f64```
