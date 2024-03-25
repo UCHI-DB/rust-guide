@@ -79,10 +79,10 @@ impl Rectangle {
 
 let r = Rectangle::new_square_rect(4);
 ```
-
+(derive)=
 ### Derive 
 
-[Derive](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html) is an annotation you can put on a struct that will automatically generate functions for the impl of the struct. Common derives will be debug (generate a string when called with {:?} in a string format), eq/partialEq (check equality), clone (create a deep copy), copy (stack only copy), hash (generate a hash code), and Ord/PartialOrd (comparing ordering).
+[Derive](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html) is an annotation you can put on a struct that will automatically generate functions for the impl of the struct. Common derives will be `debug` (generate a string when called with {:?} in a string format), `eq`/`partialEq` (check equality), `clone` (create a deep copy), `copy` (stack only copy), `hash` (generate a hash code), and `Ord`/`PartialOrd` (comparing ordering).
 
 If we wanted to generate equality checks and debug on our rectangle struct we would add
 

@@ -143,3 +143,19 @@ fn main() {
 ```
 
 ## Rust Macros
+
+Rust has a powerful macro system that consists of two major types of macros:
+- **Declarative Macros** with `macro_rules!`. These are similar to C macros.
+- **Procedural Macros** with `#[derive]` and `#[proc_macro]` and others. These are more powerful
+and resemble decorators in Python.
+
+You have already seen declarative macros in `println!`, `assert_eq!`.
+They are built into the language and support _metaprogramming_, which allows you 
+to write more condensed code that expands into more verbose code at compile time.
+Macros are defined for functions such as `println!` to allow for variable arguments,
+a language feature that is not possible with plain functions in Rust. 
+
+Procedural macros are more advanced; you will see a version of them in the [Object-Oriented Features](derive) module. 
+
+Read more in the [Rust Book](https://doc.rust-lang.org/book/ch19-06-macros.html)
+
