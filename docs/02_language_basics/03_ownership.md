@@ -33,7 +33,7 @@ the Rust programming language, by Mozilla Research.
 
 ## Rust's Memory Ownership Model
 
-Rust aims to help developers write safe programs without using a garbage collector. Striking a balance between convenience and performance. Developers only need to learn a few additional concepts to take full advantage of Rust's powerful model. The concept of ownership is at the center of it all.
+Rust aims to help developers write safe programs without using a garbage collector, balancing convenience and performance. Developers only need to learn a few additional concepts to take full advantage of Rust's powerful model. The concept of ownership is at the center of it all.
 
 To recap: Ownership is one of the most important and unique features of Rust; it allows Rust to be memory-safe and efficient without needing a garbage collector. 
 
@@ -84,7 +84,7 @@ References and borrowing allows developer to use variables without taking owners
 
 To **borrow** a value without taking ownership of a value, you can add an 
 ampersand (`&`) to the value. 
-Remember that `!vec` is a macro that creates a new vector.
+Remember that `vec!` is a macro that creates a new vector.
 
 ```rust
 fn main() {
