@@ -10,4 +10,11 @@ at the University of Chicago.
 - [Suhail Rehman](https://suhailrehman.com)
 
 ## TAs
+- [Zhe Heng Eng](https://github.com/zhehengeng)
 - [Tapan Srivasatava](https://tapan-srivastava.github.io)
+- [Rui Liu](https://csruiliu.github.io/)
+- [Yue Gong](https://yuegong.netlify.app/)
+- [Reilly M.](https://www.linkedin.com/in/reillymcbride/)
+- [Emma Rosenthal](https://www.linkedin.com/in/emmamrosenthal/)
+- [William Ma](https://williamma.me/)
+- Daisy Barbanel
