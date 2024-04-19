@@ -11,7 +11,7 @@ at the University of Chicago.
 
 ## TAs
 - [Zhe Heng Eng](https://github.com/zhehengeng)
-- [Tapan Srivasatava](https://tapan-srivastava.github.io)
+- [Tapan Srivasatava](https://tapansrivastava.com/)
 - [Rui Liu](https://csruiliu.github.io/)
 - [Yue Gong](https://yuegong.netlify.app/)
 - [Reilly M.](https://www.linkedin.com/in/reillymcbride/)
