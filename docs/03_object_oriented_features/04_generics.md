@@ -110,7 +110,7 @@ let y: Option<i8> = Some(5);
 ```
 
 Overall, the option enum allows us to implement code that handles each variant:
-- Use Some when you want code to run only why you have a ```Some(T)``` value
+- Use `Some` when you want code to run only when you have a ```Some(T)``` value
 - Use ```None``` if you want code to run if you have a ```None``` value.
 
 [Read more about Option in the Rust Book](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html?highlight=option#the-option-enum-and-its-advantages-over-null-values).
