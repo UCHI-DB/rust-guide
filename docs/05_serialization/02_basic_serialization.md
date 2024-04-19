@@ -46,8 +46,8 @@ The following code sample demonstrates how to read and write a string to a file 
 ```rust
 fn write_string_to_file(string: &str, filename: &str) {
     let f = File::create(filename).expect("error creating file");
-    let mut f = BufWriter::new(f);
-    f.write_all(string.as_bytes()).unwrap();
+    let mut buf = BufWriter::new(f);
+    buf.write_all(string.as_bytes()).unwrap();
 }
 
 fn read_string_from_file(filename: &str) -> String {
