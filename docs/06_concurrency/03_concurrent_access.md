@@ -76,9 +76,12 @@ let lock = RwLock::new(5);
 } // write lock is dropped here
 ```
 
-In this example, RwLock allowed us to have many reader locks, while only allowing access to one write lock. Most of the time when you have a RwLock, it will be wrapped in an Arc, as it meant to be shared across threads.## Other Concurrency Primitives/ Tools
+In this example, RwLock allowed us to have many reader locks, while only allowing access to one write lock. Most of the time when you have a RwLock, it will be wrapped in an Arc, as it meant to be shared across threads.
 
-We are not covering them here, but in addition to RwLocks, Rust uses AtomicPrimitives for safe concurrent access along with channels to use message passing between threads.
+## Other Concurrency Primitives/ Tools
+
+We are not covering them here, but in addition to `RwLocks`, Rust uses [`AtomicPrimitives`](https://doc.rust-lang.org/std/sync/atomic/) for safe concurrent access along with channels to use message passing between threads.
+
 
 ## Interior Mutability
 
