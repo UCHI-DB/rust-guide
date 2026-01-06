@@ -90,7 +90,7 @@ From the Rust book '*Interior mutability is a design pattern in Rust that allows
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Explore concurrency-related exercises:
+Practice concurrency topics in the rustlings exercises ([Instructions](#rustlings-label)):
 
 **Threads:**
 - [threads1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads1.rs)

@@ -25,7 +25,7 @@ let a = great_struct::GS;
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice module organization and imports:
+Practice module organization and imports in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [modules1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/10_modules/modules1.rs)
 - [modules2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/10_modules/modules2.rs)

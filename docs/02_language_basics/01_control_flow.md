@@ -36,7 +36,7 @@ Read more in the [Rust Book](https://doc.rust-lang.org/book/ch03-01-variables-an
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice variables and mutability:
+Practice variables and mutability in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [variables1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables1.rs)
 - [variables2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables2.rs)
@@ -88,7 +88,7 @@ Read more in the [Rust Book](https://doc.rust-lang.org/book/ch03-03-how-function
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice writing functions:
+Practice writing functions in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [functions1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions1.rs)
 - [functions2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions2.rs)
@@ -120,7 +120,7 @@ fn main() {
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice if expressions:
+Practice if expressions in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [if1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if1.rs)
 - [if2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if2.rs)
@@ -201,14 +201,14 @@ to write more condensed code that expands into more verbose code at compile time
 Macros are defined for functions such as `println!` to allow for variable arguments,
 a language feature that is not possible with plain functions in Rust. 
 
-Procedural macros are more advanced; you will see a version of them in the [Object-Oriented Features](derive) module. 
+Procedural macros are more advanced; you will see a version of them in the [Object-Oriented Features](#derive) module. 
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch19-06-macros.html)
 
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice writing and using macros:
+Practice writing and using macros in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [macros1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros1.rs)
 - [macros2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros2.rs)
@@ -219,4 +219,4 @@ Practice writing and using macros:
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice primitive types:
+Practice primitive types in the rustlings exercises ([Instructions](#rustlings-label)):

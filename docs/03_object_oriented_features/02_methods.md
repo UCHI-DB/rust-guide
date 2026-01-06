@@ -105,7 +105,7 @@ if r1 == r2 {
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice methods and implementations:
+Practice methods and implementations in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [structs2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/07_structs/structs2.rs)
 - [structs3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/07_structs/structs3.rs)

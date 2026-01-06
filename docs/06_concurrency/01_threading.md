@@ -38,7 +38,7 @@ A call to the `thread::spawn` function returns a variable of type `JoinHandle`. 
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice threading and message passing:
+Practice threading and message passing in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [threads1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads1.rs)
 - [threads2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads2.rs)

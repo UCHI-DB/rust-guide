@@ -57,7 +57,7 @@ fn main() {
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice smart pointers and shared ownership:
+Practice smart pointers and shared ownership in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [box1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/box1.rs)
 - [rc1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/rc1.rs)

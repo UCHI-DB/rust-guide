@@ -198,7 +198,7 @@ Any reference has a lifetime that indicates how long the reference is valid. Mos
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Solidify ownership with move semantics:
+Practice move semantics and ownership in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [move_semantics1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/06_move_semantics/move_semantics1.rs)
 - [move_semantics2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/06_move_semantics/move_semantics2.rs)

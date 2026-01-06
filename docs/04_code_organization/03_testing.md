@@ -5,7 +5,7 @@ We  will cover this with the start of CrustyDB, but if you are not familiar with
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Build fluency with Rust tests:
+Practice Rust tests in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [tests1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/17_tests/tests1.rs)
 - [tests2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/17_tests/tests2.rs)

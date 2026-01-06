@@ -181,7 +181,7 @@ Reasonable code will make use of both the ? operator and unwrap depending on how
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice with generics:
+Practice generics in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [generics1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/14_generics/generics1.rs)
 - [generics2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/14_generics/generics2.rs)

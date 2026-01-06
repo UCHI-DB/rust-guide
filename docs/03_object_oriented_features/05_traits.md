@@ -44,7 +44,7 @@ Tweet are two different types, they both implement the Summary behavior. In addi
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Get comfortable with traits and implementations:
+Practice traits and implementations in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [traits1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/15_traits/traits1.rs)
 - [traits2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/15_traits/traits2.rs)

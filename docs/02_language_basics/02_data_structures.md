@@ -55,7 +55,7 @@ More information on hashmaps is in the [Rust Book](https://doc.rust-lang.org/boo
 :::{admonition} Rustlings Exercises
 :class: tip
 
-Practice common collections:
+Practice common collections in the rustlings exercises ([Instructions](#rustlings-label)):
 
 **Vectors:**
 - [vecs1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/05_vecs/vecs1.rs)
@@ -75,6 +75,6 @@ Practice common collections:
 Finally, we use the `unwrap_or` function to provide a default value if the key is not in the hashmap.
 
 
-You will learn more about `Option` and enums in the [next module](enums).
+You will learn more about `Option` and enums in the [next module](#enums).
 
 More information on hashmaps is in the [Rust Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)

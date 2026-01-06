@@ -1,0 +1,20 @@
+/* Logo transparency override: remove forced white backgrounds */
+.navbar-brand.logo .logo__image,
+.logo__image {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  max-height: 42px;
+  width: auto;
+}
+
+/* Dark theme: prevent filters or backgrounds from altering transparent logo */
+html[data-theme="dark"] .logo__image.only-dark {
+  background: transparent !important;
+  filter: none !important;
+}
+
+/* Content niceties */
+.bd-content .highlight pre { white-space: pre-wrap; }
+table.docutils td, table.docutils th { vertical-align: top; }
