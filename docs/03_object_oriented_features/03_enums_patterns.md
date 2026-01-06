@@ -104,3 +104,13 @@ if let Message::Wait(time,len) = m3 {
 Matches are a powerful tool. You can use them when assigning variables or for returning from a function.
 
 Read more about enums and matching in the [Rust Book](https://doc.rust-lang.org/book/ch06-00-enums.html)
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice enums and pattern matching:
+
+- [enums1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/08_enums/enums1.rs)
+- [enums2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/08_enums/enums2.rs)
+- [enums3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/08_enums/enums3.rs)
+:::

@@ -194,3 +194,15 @@ Any reference has a lifetime that indicates how long the reference is valid. Mos
 ## References
 - Rust Documentation
     - [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Solidify ownership with move semantics:
+
+- [move_semantics1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/06_move_semantics/move_semantics1.rs)
+- [move_semantics2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/06_move_semantics/move_semantics2.rs)
+- [move_semantics3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/06_move_semantics/move_semantics3.rs)
+- [move_semantics4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/06_move_semantics/move_semantics4.rs)
+- [move_semantics5.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/06_move_semantics/move_semantics5.rs)
+:::

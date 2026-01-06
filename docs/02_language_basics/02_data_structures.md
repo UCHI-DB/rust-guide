@@ -50,6 +50,28 @@ let score = scores.get(&team_name).copied().unwrap_or(0);
 While the access example above may seem a bit complex, it is a common pattern in Rust. 
 The `get` function returns an `Option<&V>` type, which is a Rust `enum` that can be either `Some` or `None`.
 If a value exists, a pointer (`&V`) to the value is returned, and we can make a copy of the value using the `copied` function.
+More information on hashmaps is in the [Rust Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice common collections:
+
+**Vectors:**
+- [vecs1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/05_vecs/vecs1.rs)
+- [vecs2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/05_vecs/vecs2.rs)
+
+**Strings:**
+- [strings1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/09_strings/strings1.rs)
+- [strings2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/09_strings/strings2.rs)
+- [strings3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/09_strings/strings3.rs)
+- [strings4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/09_strings/strings4.rs)
+
+**HashMaps:**
+- [hashmaps1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/11_hashmaps/hashmaps1.rs)
+- [hashmaps2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/11_hashmaps/hashmaps2.rs)
+- [hashmaps3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/11_hashmaps/hashmaps3.rs)
+:::
 Finally, we use the `unwrap_or` function to provide a default value if the key is not in the hashmap.
 
 

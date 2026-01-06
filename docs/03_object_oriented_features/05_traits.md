@@ -40,3 +40,15 @@ impl Summary for Tweet {
 
 As you can see, we implemented the same trait, ```Summary```, on 2 different structs: NewsArticle, and Tweet. We are saying that although NewsArticle and
 Tweet are two different types, they both implement the Summary behavior. In addition, NewsArticle and Tweet can implement other Traits and have a default implementation still (e.g. `impl Tweet`)
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Get comfortable with traits and implementations:
+
+- [traits1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/15_traits/traits1.rs)
+- [traits2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/15_traits/traits2.rs)
+- [traits3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/15_traits/traits3.rs)
+- [traits4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/15_traits/traits4.rs)
+- [traits5.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/15_traits/traits5.rs)
+:::

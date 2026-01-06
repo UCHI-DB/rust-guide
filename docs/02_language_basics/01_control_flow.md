@@ -33,6 +33,19 @@ Other times it cannot and requires you provide the type
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
 
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice variables and mutability:
+
+- [variables1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables1.rs)
+- [variables2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables2.rs)
+- [variables3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables3.rs)
+- [variables4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables4.rs)
+- [variables5.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables5.rs)
+- [variables6.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables6.rs)
+:::
+
 ## Functions
 
 Functions in Rust are defined as:
@@ -72,6 +85,18 @@ fn square(n: u64) -> u64 {
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
 
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice writing functions:
+
+- [functions1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions1.rs)
+- [functions2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions2.rs)
+- [functions3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions3.rs)
+- [functions4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions4.rs)
+- [functions5.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions5.rs)
+:::
+
 ## Control Flow
 
 ### ```if``` Expressions:
@@ -91,6 +116,16 @@ fn main() {
     }
 }
 ```
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice if expressions:
+
+- [if1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if1.rs)
+- [if2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if2.rs)
+- [if3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if3.rs)
+:::
 
 ### ``` loop```
 
@@ -170,3 +205,18 @@ Procedural macros are more advanced; you will see a version of them in the [Obje
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch19-06-macros.html)
 
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice writing and using macros:
+
+- [macros1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros1.rs)
+- [macros2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros2.rs)
+- [macros3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros3.rs)
+- [macros4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros4.rs)
+:::
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice primitive types:

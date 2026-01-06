@@ -34,3 +34,13 @@ The example also shows the use of `thread:sleep` to force a thread to stop its e
 A call to the `thread::spawn` function returns a variable of type `JoinHandle`. This variable gives us a handle to the thread which we can use to interact with the thread and call the thread `join()` function. `join` forces the calling thread to wait for the execution of the thread pointed to by the handle to finish executing. In rust, when the main thread is done executing, the program exits, irrespective of any threads that have not finished executing, unless you force the execution to wait until all spawned threads have been joined using `join`. 
 
 [Read more about Threads in the Rust book](https://doc.rust-lang.org/book/ch16-01-threads.html)
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice threading and message passing:
+
+- [threads1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads1.rs)
+- [threads2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads2.rs)
+- [threads3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads3.rs)
+:::

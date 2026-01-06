@@ -178,6 +178,15 @@ So, if things go well, then both the ? operator and unwrap() will return the typ
 
 Reasonable code will make use of both the ? operator and unwrap depending on how errors are handled. 
 
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice with generics:
+
+- [generics1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/14_generics/generics1.rs)
+- [generics2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/14_generics/generics2.rs)
+:::
+
 <!-- In crustyDB, we are very much still figuring out the best way of doing error handling, so you'll find both of these operators throughout. For now, you should just know what they mean, so you can interpret crusty's code and so you can use them when needed.
 
 *Please note that this is the second iteration of CrustyDB, so the code is not yet mature. This means you may see differences in usage of Option, Result, unwrap, ?, etc. Sometimes this is intentional, sometimes not.* -->

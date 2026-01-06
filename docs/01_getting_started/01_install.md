@@ -71,3 +71,43 @@ rustup update
 
 ## Rust Playground 
 The [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021) is a web interface to try out small code snippets 
+
+## Rustlings
+
+[Rustlings](https://github.com/rust-lang/rustlings) is a collection of small exercises designed to help you get familiar with reading and writing Rust code. Throughout this guide, you'll find references to specific Rustlings exercises that complement the topics being discussed.
+
+To install Rustlings, make sure you have Rust installed (see above), then run:
+
+```bash
+cargo install rustlings
+```
+
+Once installed, initialize Rustlings in a directory of your choice (make sure its not in any of your course homework or project folders):
+
+```bash
+rustlings init
+```
+
+This will create a `rustlings` directory with all the exercises.
+
+To start rustlings, simply enter the following command within the ``rustlings`` folder:
+
+```bash
+rustlings
+```
+
+:::{admonition} Practicing Specific Rustlings Exercises
+:class: tip
+
+As you read the rust guide, you will find references to indivdual rustlings practice exercises, and they are not in the original order
+of the rustlings exercises. If you'd like to run individual practice
+problems, first start rustlings:
+
+```bash
+rustlings
+```
+
+And you can then hit the ``l`` key to **l**ist all the rustlings exercises and choose the relevant exercise.
+
+For more information, visit the [Rustlings Website](https://rustlings.rust-lang.org/).
+:::
