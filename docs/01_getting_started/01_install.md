@@ -106,5 +106,21 @@ rustlings
 
 And you can then hit the ``l`` key to **l**ist all the rustlings exercises and choose the relevant exercise.
 
-For more information, visit the [Rustlings Website](https://rustlings.rust-lang.org/).
+Each exercise refers to a specific Rust (`.rs`) file within the `rustlings`
+folder. Navigate to that specific Rust file and edit it, given the instructions
+and the compiler message. 
+
+When you save the file, rustlings will automatically
+compile and run the file and check the output against the expected output. If 
+your code is correct, it will respond with a success message. If not, the
+compiler error or test result is provided to you, and you can fix your code to
+complete the exercise gradually. 
+
+It is recommended that you open the rustlings folder in VSCode and run the
+rustlings command within a terminal session in VSCode. Any references to Rust 
+files within the VSCode terminal can be visited by `Ctrl`-clicking (or `Cmd`-clicking on a Mac), making navigation and completing the rustlings exercises that much smoother.
+
+
+
+For more information, as well as a live demo of the rustlings process, visit the [Rustlings Website](https://rustlings.rust-lang.org/).
 :::

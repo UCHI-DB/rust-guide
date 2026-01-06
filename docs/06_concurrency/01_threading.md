@@ -3,7 +3,9 @@
 Similar to C, C++ and Java, Rust provides the ability to write multi-threaded programs which allows for concurrent execution of program code, and threads have the ability to read and write shared data, as we shall see soon. 
 
 Threading in rust is handled via the `std::thread` library, which provides the 
-ability to `spawn` threads. The thread `thread::spawn` function call takes in a function `closure`, which is an anonmyous function with associated context that can be saved in a variable and passed to other functions. The following example spawns a single thread which prints 10 lines, while the main thread prints 5 lines, and these can run concurrently. The closure is defined as a parameter to `thread::spawn` using the `|| {}` notation. 
+ability to `spawn` threads. The thread `thread::spawn` function call takes in a function [closure](https://doc.rust-lang.org/book/ch13-01-closures.html), which is an anonmyous function with associated context that can be saved in a variable and passed to other functions. The following example spawns a single thread which prints 10 lines, while the main thread prints 5 lines, and these can run concurrently. The closure is defined as a parameter to `thread::spawn` using the `|<parameters>| {<body>}` notation. In the following 
+example, the function has no parameters, so the closure is represented using `||{<body>}` 
+notation:
 
 ```rust
 use std::thread;
@@ -41,6 +43,4 @@ A call to the `thread::spawn` function returns a variable of type `JoinHandle`. 
 Practice threading and message passing in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [threads1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads1.rs)
-- [threads2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads2.rs)
-- [threads3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads3.rs)
 :::

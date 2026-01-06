@@ -50,7 +50,12 @@ let score = scores.get(&team_name).copied().unwrap_or(0);
 While the access example above may seem a bit complex, it is a common pattern in Rust. 
 The `get` function returns an `Option<&V>` type, which is a Rust `enum` that can be either `Some` or `None`.
 If a value exists, a pointer (`&V`) to the value is returned, and we can make a copy of the value using the `copied` function.
+
 More information on hashmaps is in the [Rust Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
+
+Finally, we use the `unwrap_or` function to provide a default value if the key is not in the hashmap.
+
+You will learn more about `Option` and enums in the [next module](#enums).
 
 :::{admonition} Rustlings Exercises
 :class: tip
@@ -72,9 +77,5 @@ Practice common collections in the rustlings exercises ([Instructions](#rustling
 - [hashmaps2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/11_hashmaps/hashmaps2.rs)
 - [hashmaps3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/11_hashmaps/hashmaps3.rs)
 :::
-Finally, we use the `unwrap_or` function to provide a default value if the key is not in the hashmap.
 
 
-You will learn more about `Option` and enums in the [next module](#enums).
-
-More information on hashmaps is in the [Rust Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)

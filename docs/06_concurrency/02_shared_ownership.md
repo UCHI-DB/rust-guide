@@ -62,5 +62,4 @@ Practice smart pointers and shared ownership in the rustlings exercises ([Instru
 - [box1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/box1.rs)
 - [rc1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/rc1.rs)
 - [arc1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/arc1.rs)
-- [cow1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/cow1.rs)
 :::

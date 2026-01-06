@@ -9,7 +9,7 @@ These variables include:
 - boolean ```bool```
 - character ```char```
 - tuple ```tup```
-- array (not frequently used though, Vector is much more common)
+- ``array`` (not frequently used though, ``Vector`` is much more common)
 
 You will notice that, unlike higher-level languages like Python, Rust has many
 different types of integers. The first letter indicates the sign (`u` for
@@ -215,8 +215,3 @@ Practice writing and using macros in the rustlings exercises ([Instructions](#ru
 - [macros3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros3.rs)
 - [macros4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros4.rs)
 :::
-
-:::{admonition} Rustlings Exercises
-:class: tip
-
-Practice primitive types in the rustlings exercises ([Instructions](#rustlings-label)):

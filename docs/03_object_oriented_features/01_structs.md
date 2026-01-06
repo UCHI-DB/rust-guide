@@ -69,6 +69,4 @@ after making the appropriate value mutable.
 Practice structs and initialization in the rustlings exercises ([Instructions](#rustlings-label)):
 
 - [structs1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/07_structs/structs1.rs)
-- [structs2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/07_structs/structs2.rs)
-- [structs3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/07_structs/structs3.rs)
 :::

@@ -92,12 +92,6 @@ From the Rust book '*Interior mutability is a design pattern in Rust that allows
 
 Practice concurrency topics in the rustlings exercises ([Instructions](#rustlings-label)):
 
-**Threads:**
-- [threads1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads1.rs)
 - [threads2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads2.rs)
 - [threads3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads3.rs)
-
-**Smart Pointers:**
-- [rc1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/rc1.rs)
-- [arc1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/arc1.rs)
 :::
