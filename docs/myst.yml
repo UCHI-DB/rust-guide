@@ -14,5 +14,5 @@ site:
   options:
     favicon: favicon.ico
     logo: logo.png
-  assets:
-    - _static/custom.css
+    assets:
+      - _static/custom.css
