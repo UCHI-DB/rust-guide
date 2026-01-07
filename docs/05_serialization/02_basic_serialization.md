@@ -38,6 +38,15 @@ The crux of serializing a data structure is to find a byte representation of the
 
 In particular, when serializing numbers, byte order matters. Recall the differences between *Little* and *Big* Endian representation - you can read more in [the Wikipedia article on Endianness](https://en.wikipedia.org/wiki/Endianness). Rust provides multiple byte conversion traits for numeric types, such as `to_le_bytes` and `to_be_bytes` for little and big endian, respectively. The corresponding `from_le_bytes` and `from_be_bytes` are used to convert bytes back to numbers.
 
+:::{hint} Default Endianness
+
+   CPUs (such as x86, arm, etc) stick to Little Endian (`le`), while networking protocols
+   encode byte information in Big Endian (`be`), also known as network order. It's best
+   to choose Little Endian, unless you are explicitly performing low-level byte conversions
+   for networking (i.e. TCP messages, frames etc.)
+
+:::
+
 
 ## String Serialization
 

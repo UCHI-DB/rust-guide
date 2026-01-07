@@ -86,3 +86,12 @@ We are not covering them here, but in addition to `RwLocks`, Rust uses [`AtomicP
 ## Interior Mutability
 
 From the Rust book '*Interior mutability is a design pattern in Rust that allows you to mutate data even when there are immutable references to that data; normally, this action is disallowed by the borrowing rules.*'  Using a variable like `Arc<RwLock<T>>` can allow you to use interior mutability on a struct, and within CrustyDB there will be points you may want to use such an approach.
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice concurrency topics in the rustlings exercises ([Instructions](#rustlings-label)):
+
+- [threads2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads2.rs)
+- [threads3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/20_threads/threads3.rs)
+:::

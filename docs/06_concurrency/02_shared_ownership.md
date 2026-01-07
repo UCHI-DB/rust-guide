@@ -53,3 +53,13 @@ fn main() {
 ## Arc 
 
 ```Arc``` stands for Atomic Reference Counted, and is similar to ```Rc```, ```Arc``` lets you share data across different owners. In contrast to Rc, Arc allows you to share references across *threads* and ensures that the reference lives as long as the last owner survives--as opposed to the reference being deallocated when it gets out of scope. A quick way of choosing between Arc and Rc is the following: will you use the reference across threads? if the answer is yes, you probably want to use Arc, if the answer is no then you probably want to use Rc.
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice smart pointers and shared ownership in the rustlings exercises ([Instructions](#rustlings-label)):
+
+- [box1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/box1.rs)
+- [rc1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/rc1.rs)
+- [arc1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/19_smart_pointers/arc1.rs)
+:::

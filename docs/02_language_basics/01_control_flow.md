@@ -9,7 +9,7 @@ These variables include:
 - boolean ```bool```
 - character ```char```
 - tuple ```tup```
-- array (not frequently used though, Vector is much more common)
+- ``array`` (not frequently used though, ``Vector`` is much more common)
 
 You will notice that, unlike higher-level languages like Python, Rust has many
 different types of integers. The first letter indicates the sign (`u` for
@@ -32,6 +32,19 @@ Other times it cannot and requires you provide the type
 `let x: u8 = 14;`
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice variables and mutability in the rustlings exercises ([Instructions](#rustlings-label)):
+
+- [variables1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables1.rs)
+- [variables2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables2.rs)
+- [variables3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables3.rs)
+- [variables4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables4.rs)
+- [variables5.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables5.rs)
+- [variables6.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/01_variables/variables6.rs)
+:::
 
 ## Functions
 
@@ -72,6 +85,18 @@ fn square(n: u64) -> u64 {
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
 
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice writing functions in the rustlings exercises ([Instructions](#rustlings-label)):
+
+- [functions1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions1.rs)
+- [functions2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions2.rs)
+- [functions3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions3.rs)
+- [functions4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions4.rs)
+- [functions5.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/02_functions/functions5.rs)
+:::
+
 ## Control Flow
 
 ### ```if``` Expressions:
@@ -91,6 +116,16 @@ fn main() {
     }
 }
 ```
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice if expressions in the rustlings exercises ([Instructions](#rustlings-label)):
+
+- [if1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if1.rs)
+- [if2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if2.rs)
+- [if3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/03_if/if3.rs)
+:::
 
 ### ``` loop```
 
@@ -166,7 +201,17 @@ to write more condensed code that expands into more verbose code at compile time
 Macros are defined for functions such as `println!` to allow for variable arguments,
 a language feature that is not possible with plain functions in Rust. 
 
-Procedural macros are more advanced; you will see a version of them in the [Object-Oriented Features](derive) module. 
+Procedural macros are more advanced; you will see a version of them in the [Object-Oriented Features](#derive) module. 
 
 Read more in the [Rust Book](https://doc.rust-lang.org/book/ch19-06-macros.html)
 
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice writing and using macros in the rustlings exercises ([Instructions](#rustlings-label)):
+
+- [macros1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros1.rs)
+- [macros2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros2.rs)
+- [macros3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros3.rs)
+- [macros4.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/21_macros/macros4.rs)
+:::

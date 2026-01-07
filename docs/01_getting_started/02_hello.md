@@ -5,9 +5,8 @@ We can explain the process of creating a Rust project, writing a simple
 "Hello, World!" program, compiling it, and running it.
 
 ## Cargo
-[Link to Rust documentation for cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 
-[Cargo]() is Rust's build system and package manager. It allows you to:
+[Cargo](https://doc.rust-lang.org/cargo/) is Rust's build system and package manager. It allows you to:
 
 - Build your software
 - Declare software dependencies your project needs

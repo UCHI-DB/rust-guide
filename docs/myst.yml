@@ -1,0 +1,18 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 9ab66848-d6d6-4700-b989-17267399be6c
+  title: Rust Guide
+  #authors: [The UChicago CS Department]
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/UCHI-DB/rust-guide
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
+    logo: logo.png
+    assets:
+      - _static/custom.css

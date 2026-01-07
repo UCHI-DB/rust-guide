@@ -1,7 +1,7 @@
 (enums)=
 # Enums and Pattern Matching
 
-# Enums
+## Enums
 An ```enum``` is a data type that allows you to define a type by enumerating its possible variants. The options of an enum can optionally hold variables (primitive types, structs, or a tuple of values).  
 
 Consider we have a message type that can either be a hello, goodbye, body, or wait. The body type has a string associated with it, and wait has an integer that specifies how long to wait.
@@ -24,7 +24,7 @@ let m3 = Message::Wait(String::from("Seconds"), 10);
 let m4 = Message::Goodbye;
 ```
 
-# Match
+## Match
 
 If you are not used to languages with a pattern-matching feature, you'll love the transition to Rust. Match expressions allow you to compare a value against a series of patterns. 
 
@@ -91,7 +91,7 @@ fn print_msg(m: Message) {
 
 In the next module we will explore two common enums Option and Result.
 
-### if let
+## if let
 
 Sometimes you want to only check a single condition, in this case writing an `if let` can be concise.
 
@@ -104,3 +104,13 @@ if let Message::Wait(time,len) = m3 {
 Matches are a powerful tool. You can use them when assigning variables or for returning from a function.
 
 Read more about enums and matching in the [Rust Book](https://doc.rust-lang.org/book/ch06-00-enums.html)
+
+:::{admonition} Rustlings Exercises
+:class: tip
+
+Practice enums and pattern matching in the rustlings exercises ([Instructions](#rustlings-label)):
+
+- [enums1.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/08_enums/enums1.rs)
+- [enums2.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/08_enums/enums2.rs)
+- [enums3.rs](https://github.com/rust-lang/rustlings/blob/main/exercises/08_enums/enums3.rs)
+:::

@@ -18,7 +18,8 @@ pip install -r requirements.txt
 ## Building
 To build and serve this guide locally:
 ```bash
-jupyter-book build docs
+cd docs
+jupyter-book start
 ```
 
 ## Github Page Deployment

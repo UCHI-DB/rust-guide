@@ -29,6 +29,14 @@ up.
 
 Most other free IDEs do not have good support for the Rust debugger yet.
 
+
+
+#### VSCode
+
+VSCode now has robust support for Rust development. The [official documentation
+from VSCode](https://code.visualstudio.com/docs/languages/rust) lists the steps and extensions that are recommended for Rust development within VSCode. We recommend using the 
+extensions [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer), which works in conjunction with [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) for debugging.
+
 #### CLion
 
 JetBrain's [CLion](https://www.jetbrains.com/clion/) IDE looks to have a solid Rust debugger with the Rust extension.
@@ -39,19 +47,12 @@ which worked for me out of the box on Ubuntu (with installing the Rust plugin).
 One of our TAs uses CLion to debug Rust on OSX. The link also contains instructions for 
 debugging on Windows, but it has not been tested by us.
 
-#### VSCode
-
-We have had some mixed success with using VSCode for debugging Rust
-(although it is a great Rust IDE with the right extensions).  Using the
-extensions `rust-analyzer` and CodeLLDB on Ubuntu has gotten debugging working on a set up.
-We included the launch.json for running tests in a package.
-
 ### Alternative ways of debugging programs
 
 You are already familiar with printing the values of variables in your programs
 in order to understand program behavior and detect problems, i.e., in order to
-debug your programs. Rust has its own println!() macro (and Crusty uses a
-logging library). Rust also has a dbg!()
+debug your programs. Rust has its own `println!()` macro (and Crusty uses a
+logging library). Rust also has a `dbg!()`
 macro in its standard library, which will simply format the argument so its
 printable along with the line where it's found.  A real debugger will give you
 much more information, presented better, and in context, so it's a much more
