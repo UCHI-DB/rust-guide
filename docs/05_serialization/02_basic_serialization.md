@@ -41,7 +41,7 @@ In particular, when serializing numbers, byte order matters. Recall the differen
 :::{hint} Default Endianness
 
    CPUs (such as x86, arm, etc) stick to Little Endian (`le`), while networking protocols
-   encode byte information in Big Endian (`be`), also known as network order. Its best
+   encode byte information in Big Endian (`be`), also known as network order. It's best
    to choose Little Endian, unless you are explicitly performing low-level byte conversions
    for networking (i.e. TCP messages, frames etc.)
 

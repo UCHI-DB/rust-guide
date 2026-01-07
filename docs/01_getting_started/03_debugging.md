@@ -33,9 +33,9 @@ Most other free IDEs do not have good support for the Rust debugger yet.
 
 #### VSCode
 
-VSCode has now has robust support for Rust development. The [official documentation
+VSCode now has robust support for Rust development. The [official documentation
 from VSCode](https://code.visualstudio.com/docs/languages/rust) lists the steps and extensions that are recommended for Rust development within VSCode. We recommend using the 
-extensions [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer), which works in conjuction with [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) for debugging.
+extensions [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer), which works in conjunction with [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) for debugging.
 
 #### CLion
 
