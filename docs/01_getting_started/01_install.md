@@ -79,7 +79,7 @@ To install Rustlings, make sure you have Rust installed (see above), then run:
 cargo install rustlings
 ```
 
-Once installed, initialize Rustlings in a directory of your choice (make sure its not in any of your course homework or project folders):
+Once installed, initialize Rustlings in a directory of your choice (make sure it's not in any of your course homework or project folders):
 
 ```bash
 rustlings init
